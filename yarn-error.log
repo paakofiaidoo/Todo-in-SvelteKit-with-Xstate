@@ -1,0 +1,40 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js
+
+PATH: 
+  C:\Python39\Scripts\;C:\Python39\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Paa-Kofi Aidoo\AppData\Local\Microsoft\WindowsApps;;C:\Users\Paa-Kofi Aidoo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Paa-Kofi Aidoo\AppData\Local\Yarn\bin;C:\Users\Paa-Kofi Aidoo\AppData\Roaming\npm;C:\Users\Paa-Kofi Aidoo\.dotnet\tools
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.17.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: read ECONNRESET
+      at TLSWrap.onStreamRead (internal/stream_base_commons.js:209:20)
+
+npm manifest: 
+  {
+    "name": "~TODO~",
+    "version": "0.0.1",
+    "scripts": {
+      "dev": "svelte-kit dev",
+      "build": "svelte-kit build",
+      "preview": "svelte-kit preview"
+    },
+    "devDependencies": {
+      "@sveltejs/kit": "next",
+      "svelte": "^3.34.0"
+    },
+    "type": "module"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
