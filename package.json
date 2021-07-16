@@ -12,6 +12,8 @@
   },
   "type": "module",
   "dependencies": {
-    "uuid": "^8.3.2"
+    "@xstate/svelte": "^0.1.0",
+    "uuid": "^8.3.2",
+    "xstate": "^4.22.0"
   }
 }
